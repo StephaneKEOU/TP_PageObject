@@ -1,10 +1,10 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class contrainsTrue {
+public class ContainsTrue {
     WebDriver driver;
 
-    public contrainsTrue(WebDriver driver){
+    public ContainsTrue(WebDriver driver){
         this.driver=driver;
     }
 
