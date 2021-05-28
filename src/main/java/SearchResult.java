@@ -7,11 +7,11 @@ public class SearchResult {
     public SearchResult(WebDriver driver){
         this.driver=driver;
     }
-    public ContainsTrue resultSearch(){
+    public ProductTitle resultSearch(){
 
         driver.findElement(By.cssSelector(".a-carousel-card[aria-posinset='1']  .a-size-mini .a-size-base-plus")).click();
 
-        return new ContainsTrue(driver);
+        return new ProductTitle(driver);
 
 
     }

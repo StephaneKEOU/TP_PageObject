@@ -27,7 +27,7 @@ public class TestAmazon {
         HomePage amazonHomePage = new HomePage(driver);
         amazonHomePage.search().enterText().resultSearch();
         //Asserts
-        String inputText= new ContainsTrue(driver).displayedText();
+        String inputText= new ProductTitle(driver).IsDisplayedText();
         Assert.assertTrue(inputText.contains("Nintendo Switch"));
 
     }
